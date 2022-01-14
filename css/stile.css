@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body{
@@ -28,9 +29,11 @@ background-color: white;
     width: 70%;
     background-color: white;
     margin: 50px auto;
-    padding-left: 5%;
 }
 
+.bottoni, .head{
+    padding-left: 5%;
+}
 .primo-bottone{
     background-color: rgb(72, 173, 241);
     color: white;
@@ -47,4 +50,21 @@ background-color: white;
     border-radius: 5px;
     border: 1px solid lightgray;
     margin: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.cerchio{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.edit{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(72, 173, 241);
 }
