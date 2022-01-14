@@ -7,9 +7,44 @@ body{
     background-color: rgb(245,248,249);
 }
 
-header{
-    width: 100%;
-    padding:10px;
+.ciao{
+background-color: white;
+}
+
+.ciao h1{
+    line-height: 1;
+    display: inline;
+    vertical-align: middle;
+}
+
+.ciao img{
+    vertical-align: middle;
+}
+.frase{
+    margin-top: 10px;
+}
+
+.contenitore{
+    width: 70%;
     background-color: white;
-    display: inline-flex;
+    margin: 50px auto;
+    padding-left: 5%;
+}
+
+.primo-bottone{
+    background-color: rgb(72, 173, 241);
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.secondo-bottone{
+    background-color: white;
+    color: lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin: 10px;
 }
