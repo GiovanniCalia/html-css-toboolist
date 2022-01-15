@@ -8,32 +8,30 @@ body{
     background-color: rgb(245,248,249);
 }
 
-.ciao{
+header{
 background-color: white;
 }
 
-.ciao h1{
+header h1{
     line-height: 1;
     display: inline;
     vertical-align: middle;
 }
 
-.ciao img{
+header img{
     vertical-align: middle;
 }
-.frase{
-    margin-top: 10px;
-}
 
-.contenitore{
+main{
     width: 70%;
     background-color: white;
     margin: 50px auto;
 }
 
-.bottoni, .head{
+section{
     padding-left: 5%;
 }
+
 .primo-bottone{
     background-color: rgb(72, 173, 241);
     color: white;
@@ -52,19 +50,60 @@ background-color: white;
     margin: 10px;
 }
 
+h2{
+    margin-top: 3%;
+}
+
 ul{
     list-style-type: none;
 }
 
-.cerchio{
-    border: 1px solid black;
+.checked{
+    color: rgb(103, 192, 170);
+    border: 1px solid rgb(103, 192, 170);
     border-radius: 50%;
-    padding: 3px;
+}
+
+.crossed{
+    color: rgb(238, 112, 104);
+    border: 1px solid rgb(238, 112, 104);
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.testo{
+    padding-left: 15px;
+    line-height: 3;
 }
 
 .edit{
+    font-size: 70%;
     color: white;
     padding: 5px 10px;
     border-radius: 10px;
+    margin-left: 5px;
+}
+
+.azzurro{
     background-color: rgb(72, 173, 241);
+}
+
+.viola{
+    background-color: rgb(156, 115, 228);
+}
+
+.verde{
+    background-color: rgb(100, 192, 169);
+}
+
+.arancione{
+    background-color: rgb(242, 158, 51);
+}
+
+.rosa{
+    background-color: rgb(216, 100, 161);
+}
+
+.verde-chiaro{
+    background-color: rgb(177, 201, 36);
 }
